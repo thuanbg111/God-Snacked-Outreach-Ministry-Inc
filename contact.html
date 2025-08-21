@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+<title>Contact — God-Snacked Outreach Ministry Inc.</title>
+<meta name="description" content="Contact God-Snacked Outreach Ministry Inc. — address and message form."/>
+<link rel="icon" href="images/logo.png" type="image/png"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header><div class="container nav">
+  <div class="brand"><img alt="God-Snacked logo" src="images/logo.png"/></div>
+  <input type="checkbox" id="nav-open"/>
+  <label class="mobile-toggle" for="nav-open" aria-label="Toggle navigation">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/></svg>
+  </label>
+  <nav aria-label="Main"><div class="menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="programs.html">Programs</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </div></nav>
+</div></header>
+
+<main><div class="container">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+    <div class="card">
+      <h3>Get in touch</h3>
+      <p><span class="badge">Legal name</span> God-Snacked Outreach Ministry Inc.</p>
+      <p><span class="badge">Address</span> 83 Quail Lane, McKinleyville, CA 95519</p>
+	   <p><span class="badge">Phone</span> <a href="#" aria-disabled="true">+18503413190</a></p>
+      <p><span class="badge">Email</span> <a href="#" aria-disabled="true">contatct@godsnackedoutreach.online</a></p>
+      <form onsubmit="event.preventDefault(); alert('Thanks! This demo form does not send messages.');">
+        <input type="text" required placeholder="Your name"/>
+        <input type="email" required placeholder="Email address"/>
+        <textarea rows="6" required placeholder="Message"></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="card">
+      <h3>Map</h3>
+      <p class="muted">83 Quail Lane, McKinleyville, CA 95519</p>
+      <p><a class="badge" href="https://maps.google.com/?q=83+Quail+Lane%2C+McKinleyville%2C+CA+95519" target="_blank" rel="noopener">Open in Google Maps</a></p>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=83+Quail+Lane%2C+McKinleyville%2C+CA+95519&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div></main>
+
+<footer><div class="container">
+  <div class="cols">
+    <div class="col-brand">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="God-Snacked logo"/>
+        <div class="brand-text">
+          <strong>God-Snacked Outreach Ministry Inc.</strong><br/>
+          <span class="muted">83 Quail Lane, McKinleyville, CA 95519</span>
+        </div>
+      </div>
+      <p class="foot-desc">We are organized exclusively for charitable purposes under IRC §501(c)(3). We do not conduct political campaigning or substantial lobbying.</p>
+    <p class="copyright">© <span id="y"></span> God-Snacked Outreach Ministry Inc. All rights reserved.</p>
+    </div>
+    <div class="col-pages"><h3>Pages</h3>
+      <p><a href="about.html">About</a><br/>
+      <a href="programs.html">Programs</a><br/>
+      <a href="contact.html">Contact</a><br/>
+      <a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    <div class="col-contact">
+      <h3>Contact</h3>
+      <div class="contact-list">
+        <p class="row"><span class="label">Legal name:</span> God-Snacked Outreach Ministry Inc.</p>
+        <p class="row"><span class="label">Mailing address:</span> 83 Quail Lane, McKinleyville, CA 95519</p>
+		<p class="row"><span class="label">Phone:</span> <a href="#" aria-disabled="true">+18503413190</a></p>
+        <p class="row"><span class="label">Email:</span> <a href="#" aria-disabled="true">contatct@godsnackedoutreach.online</a></p>
+      </div>
+    </div>
+  </div>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
